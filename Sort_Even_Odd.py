@@ -4,21 +4,21 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        evens = [nums[i] for i in range(len(nums)) if i%2 == 0 ]
-        odds = [nums[i] for i in range(len(nums)) if i%2 == 1 ]
+        # evens = [nums[i] for i in range(len(nums)) if i%2 == 0 ]
+        # odds = [nums[i] for i in range(len(nums)) if i%2 == 1 ]
 
-        evens.sort()
-        odds.sort(reverse = True)
+        # evens.sort()
+        # odds.sort(reverse = True)
 
-        result = []
-        even, odd = 0, 0
+        # result = []
+        # even, odd = 0, 0
 
-        for i in range(len(nums)):
-            if i%2 == 0:
-                result.append(evens[even])
-                even += 1
-            else:
-                result.append(odds[odd])
-                odds += 1
+        # for i in range(len(nums)):
+        #     if i%2 == 0:
+        #         result.append(evens[even])
+        #         even += 1
+        #     else:
+        #         result.append(odds[odd])
+        #         odds += 1
 
-        return result
+        # return result
